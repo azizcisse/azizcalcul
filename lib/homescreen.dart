@@ -179,7 +179,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         MyButton(
                             title: ',',
                             onPress: () {
-                              userInput += ',';
+                              userInput += '.';
                               setState(() {});
                             }),
                         MyButton(
